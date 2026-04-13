@@ -1,5 +1,5 @@
 # app.py - Mahalakshmi Stores - Complete Grocery Shop Application
-
+import os
 from flask import Flask, render_template_string, request, redirect, url_for, session, jsonify, flash
 from flask_sqlalchemy import SQLAlchemy
 from flask_login import LoginManager, UserMixin, login_user, logout_user, login_required, current_user
